@@ -1,0 +1,5 @@
+[versions]
+crane = "1.6.8"
+
+[libraries]
+crane = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "crane" }
